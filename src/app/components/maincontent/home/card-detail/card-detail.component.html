@@ -1,0 +1,52 @@
+<article class="container-fluid">
+  <section class="container section-hero-article">
+    <header class="row pb-3">
+      <div class="col-12 col-lg-8 d-iniline-flex flex-column justify-content-start article-title pb-4">
+        <button class="btn rounded-circle"><i class="bi bi-arrow-left-circle-fill" style="font-size: 30px;" (click)="navigation.goBack()"></i></button>
+        <h1>{{ film.name }}</h1>
+      </div>
+      <div class="d-none d-lg-flex col-lg-4 d-flex justify-content-end align-items-end article-link-buttons pb-1">
+        <a href="">Website</a>
+        <a href="">TW</a>
+        <a href="">FB</a>
+        <a href="">IG</a>
+      </div>
+    </header>
+    <section class="row">
+      <figure class="col-12 col-lg-8 article-featured-image">
+        <picture>
+          <img [src]="film.img" [alt]="film.name | slugify" class="w-100">
+        </picture>
+      </figure>
+      <div class="col-12 col-lg-4 article-details">
+        <div class="d-flex d-lg-none justify-content-end align-items-end article-link-buttons pb-1">
+          <a href="">Website</a>
+          <a href="">TW</a>
+          <a href="">FB</a>
+          <a href="">IG</a>
+        </div>
+        <hr>
+        <ul>
+          <li class="d-flex justify-content-between my-4 pe-4 pb-3 w-100">
+            <span>Atribute</span>
+            <span>{{film.year}}</span>
+          </li>
+          <li class="d-flex justify-content-between my-4 pe-4 pb-3 w-100">
+            <span>Atribute</span>
+            <span>{{film.year}}</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </section>
+  <section class="container section-main-article">
+    <header>
+      <h2>TITLE</h2>
+    </header>
+    <p>
+      Lorem ipsum
+    </p>
+
+  </section>
+</article>

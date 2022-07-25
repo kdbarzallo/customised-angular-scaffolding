@@ -1,0 +1,21 @@
+{
+  "ROUTES" : {
+    "home": "home",
+    "detail" : "detail",
+    "link-1" : "link-1",
+    "link-2": "link-2",
+    "link-3": "link-3"
+  },
+  "HEADER": {
+    "home" : "Home",
+    "link_1" : "Link1",
+    "link_2" : "Link2",
+    "link_3" : "Link3"
+  },
+  "NOTFOUND": {
+    "subtitle" : "Oops! Page not found.",
+    "message" : "It seems that the page you are looking for does not exist.",
+    "button_text" : "Go Home"
+  }
+
+}

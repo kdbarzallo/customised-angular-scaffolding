@@ -1,0 +1,42 @@
+
+.article-link-buttons{
+  a{
+    margin: 8px;
+    padding: 8px 15px;
+    border: 1px solid black;
+
+  }
+}
+
+.article-details{
+  hr{
+    margin: 0;
+    height: 10px;
+    background: black;
+    opacity: unset;
+    clip-path: polygon(0% 0%, 100% 1%, 100% 0, 98% 100%, 0% 100%);
+  }
+  ul{
+    padding: 0px 25px 0px 0px;
+    li{
+      position: relative;
+      list-style: none;
+      &::after{
+        content: "";
+        position: absolute;
+        display: block;
+        width: inherit;
+        height: 40px;
+        bottom: 0;
+        left: 0;
+        border-bottom: 2px solid black;
+        border-right: 2px solid black;
+        -webkit-transform-origin: bottom left;
+        transform-origin: bottom left;
+        -webkit-transform: skew(-31deg, 0deg);
+        transform: skew(-31deg, 0deg);
+
+      }
+    }
+  }
+}

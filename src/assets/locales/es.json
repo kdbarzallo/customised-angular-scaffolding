@@ -1,0 +1,20 @@
+{
+  "ROUTES" : {
+    "home": "inicio",
+    "detail" : "detalle",
+    "link-1" : "enlace-1",
+    "link-2": "enlace-2",
+    "link-3": "enlace-3"
+  },
+  "HEADER": {
+    "home" : "Inicio",
+    "link_1" : "Enlace1",
+    "link_2" : "Enlace2",
+    "link_3" : "Enlace3"
+  },
+  "NOTFOUND": {
+    "subtitle" : "Vaya! Página no encontrada.",
+    "message" : "Parece que la página que buscas no existe.",
+    "button_text" : "Ir a Inicio"
+  }
+}

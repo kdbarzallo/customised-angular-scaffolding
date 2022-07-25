@@ -1,0 +1,11 @@
+<section class="container">
+  <header class="text-center pb-5">
+    <h1>Title</h1>
+  </header>
+  <section class="row g-4">
+    <div *ngFor="let data of arrData" class="col-12 col-lg-4">
+      <app-generic-card [film]="data"></app-generic-card>
+    </div>
+
+  </section>
+</section>

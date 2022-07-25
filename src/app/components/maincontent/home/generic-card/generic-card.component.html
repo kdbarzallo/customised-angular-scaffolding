@@ -1,0 +1,30 @@
+
+<article class="card-content">
+  <a class="card-content-link d-block w-100 h-100" [routerLink]="['./detail/',film.name | slugify ,film.id] | localize">
+    <figure class="card-figure-container w-100 h-100">
+      <picture class="card-picture w-100 h-100">
+        <img [src]="film.img" class="card-img-top w-100 h-100" alt="">
+      </picture>
+      <figcaption class="card-caption d-flex flex-column justify-content-end text-center">
+        <div class="card-caption-container">
+          <div class="card-summary mx-4">
+            <h2>{{ film.name}}</h2>
+          </div>
+          <div class="card-details">
+            <hr class="mx-4">
+            <ul class="d-flex justify-content-evenly card-details-list p-0">
+              <li class="card-details-item">
+                <small>Atribute</small>
+                <span>{{ film.year}}</span>
+              </li>
+              <li class="card-details-item">
+                <small>Atribute</small>
+                <span>{{ film.year}}</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </figcaption>
+    </figure>
+  </a>
+</article>
